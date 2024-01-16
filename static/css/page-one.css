@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+}
+
+select {
+    width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+}

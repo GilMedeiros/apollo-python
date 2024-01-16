@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Contas de Anúncio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/page-one.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <label for="adAccounts">Escolha uma conta de anúncio:</label>
+        <select id="adAccounts" onchange="setAccountID(this.value)">
+            <!-- As opções do dropdown serão preenchidas aqui -->
+        </select>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/page-one.js') }}"></script>
+</body>
+</html>
