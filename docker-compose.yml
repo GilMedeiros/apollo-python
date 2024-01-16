@@ -8,3 +8,8 @@ services:
       - "5000:5000"
     working_dir: /app
     command: python app.py
+networks:
+  default:
+    name: apollo
+    external: true
+
